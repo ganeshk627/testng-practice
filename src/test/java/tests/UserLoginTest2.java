@@ -8,7 +8,7 @@ import pageobjects.LoginPage;
 
 import java.time.Duration;
 
-public class UserLoginTest {
+public class UserLoginTest2 {
 
 
     @Test

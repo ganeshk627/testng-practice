@@ -2,6 +2,7 @@ package tests;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 import pageobjects.DashboardPage;
 import pageobjects.LoginPage;
 
@@ -9,12 +10,8 @@ import java.time.Duration;
 
 public class InvalidLoginTest {
 
-//    private static final By USERNAME = By.xpath("//input[@name='username']");
-//    private static final By PASSWORD = By.xpath("//input[@name='password']");
-//    private static final By LOGIN_BUTTON = By.xpath("//button[normalize-space()='Login']");
-
-
-    public static void main(String[] args) {
+    @Test
+    public void invalidLoginTest() {
 
 
         WebDriver driver = new ChromeDriver();

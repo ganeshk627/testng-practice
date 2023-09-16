@@ -5,6 +5,18 @@
   <groupId>org.example</groupId>
   <artifactId>testng-practice</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>8</source>
+          <target>8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
   <packaging>jar</packaging>
 
   <name>testng-practice</name>
@@ -16,10 +28,17 @@
 
   <dependencies>
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>4.11.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>7.7.0</version>
       <scope>test</scope>
     </dependency>
+
   </dependencies>
 </project>
