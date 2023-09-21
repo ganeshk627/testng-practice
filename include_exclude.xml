@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="Smoke Tests" parallel="methods" thread-count="4">
+        <classes>
+            <class name="tests.IncludeExclude">
+                <methods>
+<!--                    <include name="Test2"></include>-->
+                    <exclude name="Test2"></exclude>
+                    <exclude name="Test4"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
