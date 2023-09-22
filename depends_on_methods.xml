@@ -4,7 +4,8 @@
     <test verbose="2" preserve-order="true"
           name="Smoke Tests" parallel="methods" thread-count="2">
         <classes>
-           <class name="tests.attributes.DependendsOnMethodAttribute"></class>
+<!--            <class name="tests.attributes.DependendsOnMethodAttribute"></class>-->
+            <class name="tests.attributes.TestName_DescriptionAttributes"></class>
         </classes>
     </test>
 </suite>
