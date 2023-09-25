@@ -43,9 +43,7 @@ public class SoftDependendsOnMethodAttribute {
     @Test(dependsOnMethods = {"registerAccountTest"})
     public void loginTest() {
         System.out.println("Test4");
-        WebDriver driver = new ChromeDriver();
-        driver.close();
-        driver.manage().window().maximize();
+      Assert.fail("Intentinally failing!!!");
     }
 
     @Test
