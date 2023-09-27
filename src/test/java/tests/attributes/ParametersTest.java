@@ -1,5 +1,6 @@
 package tests.attributes;
 
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -13,8 +14,8 @@ public class ParametersTest {
     }
 
     @Test
-    @Parameters({"title"})
-    public void postPictureTest(String title) {
+    @Parameters({"Title"})
+    public void postPictureTest(@Optional("default title") String title) {
         System.out.println(title);
 
     }
