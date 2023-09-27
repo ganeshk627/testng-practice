@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="Smoke Tests" parallel="methods" thread-count="1">
+        <parameter name="whom" value="Sanjay"></parameter>
+        <parameter name="title" value="Regarding RTP"></parameter>
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="tests.attributes.ParametersTest"></class>
+        </classes>
+    </test>
+</suite>
