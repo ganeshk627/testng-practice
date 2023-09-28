@@ -1,4 +1,4 @@
-package tests;
+package tests.hooks;
 
 import org.testng.annotations.*;
 
