@@ -4,6 +4,7 @@
     <test name="test">
         <classes>
             <class name="tests.assertions.HardAssertions"></class>
+            <class name="tests.assertions.SoftAssertions"></class>
         </classes>
     </test>
 </suite>
