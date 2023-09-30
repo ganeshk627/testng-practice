@@ -14,6 +14,11 @@ public class PriorityAttribute {
         System.out.println("Test");
     }
 
+    @Test(priority = -3)
+    public void neg() {
+        System.out.println("Test");
+    }
+
     @Test
 //    @Test(priority = 0) // default priority 0
     public void xyz() {
