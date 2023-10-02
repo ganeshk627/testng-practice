@@ -1,9 +1,11 @@
 package tests.attributes;
 
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 public class EnableDisableAttribute {
 
+    @Ignore
     @Test
     public void abc() {
         System.out.println("Test is executed!!!");
