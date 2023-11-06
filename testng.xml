@@ -3,24 +3,28 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
           name="Smoke Tests" parallel="methods" thread-count="4">
-        <classes>
-            <class name="tests.AdminLoginTest2">
+<!--        <classes>-->
+<!--            <class name="tests.AdminLoginTest2">-->
                 <!--                <methods>-->
                 <!--&lt;!&ndash;                    <include name="adminLoginTest2"/>&ndash;&gt;-->
                 <!--                    <exclude name="adminLoginTest2"></exclude>-->
                 <!--                </methods>-->
-            </class>
-            <class name="tests.InvalidLoginTest">
-                <methods>
-                    <include name="invalidLoginTest"/>
-                </methods>
-            </class>
-            <class name="tests.UserLoginTest">
-                <methods>
-                    <include name="userLoginTest"/>
-                </methods>
-            </class>
+<!--            </class>-->
+<!--            <class name="tests.InvalidLoginTest">-->
+<!--                <methods>-->
+<!--                    <include name="invalidLoginTest"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="tests.UserLoginTest">-->
+<!--                <methods>-->
+<!--                    <include name="userLoginTest"/>-->
+<!--                </methods>-->
+<!--            </class>-->
             <!--            <class name="tests.UserLoginTest2"></class>-->
+<!--        </classes>-->
+        <classes>
+            <class name="tests.attributes.TestName_DescriptionAttributes"></class>
+            <class name="tests.attributes.InvocationCountAttribute"></class>
         </classes>
     </test>
 </suite>
